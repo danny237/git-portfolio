@@ -42,10 +42,10 @@
 
 .info p {
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 20px;
     font-family: 'Domine';
-    letter-spacing: 1.3px;
+    letter-spacing: 1px;
 }
 
 .color-text {
@@ -74,7 +74,7 @@
     color: #65686C;
     transition: .5s;
     border-radius: 5px;
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
