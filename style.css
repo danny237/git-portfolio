@@ -125,3 +125,10 @@ footer i {
 footer i:hover {
     color: #fff;
 }
+
+@media all and (max-width: 600px) {
+    .main {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
