@@ -55,14 +55,14 @@
 
 #gitInfo {
     margin: 0 auto;
-    width: 50%;
+    width: 70%;
     display: flex;
     text-align: center;
 }
 
 #gitInfo .box {
     margin: 10px;
-    width: 60%;
+    width: 50%;
     color: #65686C;
     transition: .5s;
     border-radius: 5px;
@@ -107,6 +107,12 @@
     border-radius: 5px;
     transition: 0.5s;
     font-family: 'Inter';
+}
+
+#list .box a {
+    font-size: 10px;
+    text-decoration: none;
+    color: #33FFA9;
 }
 
 #list .box:hover {

@@ -1,5 +1,6 @@
 const followers = document.getElementById('followers');
-const projects = document.getElementById('projects');
+const following = document.getElementById('following');
+const public_repos = document.getElementById('public_repos');
 
 var html = '';
 
@@ -10,7 +11,8 @@ fetch('https://api.github.com/users/danny237')
     .then(function(data) {
         //        console.log(data['followers'])
         followers.textContent = data['followers']
-        projects.textContent = data['public_repos']
+        following.textContent = data['following']
+        public_repos.textContent = data['public_repos']
     })
 
 
@@ -22,8 +24,11 @@ fetch('https://api.github.com/users/danny237/repos')
     .then(function(data) {
         for (let i = 0; i < 5; i++) {
             projectname = data[i].name
-            document.getElementById('list').innerHTML += `<div class="box">${i+1}.Project- ${projectname}</div>`
-
+            link = data[i].html_url
+            document.getElementById('list').innerHTML += `<div class="box">${i+1}.Project- ${projectname}<br>
+            <a href="${link}" target=_blank>Click here</a>
+            </div>`
+            console.log(link)
 
         }
 
