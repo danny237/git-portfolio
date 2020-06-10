@@ -82,7 +82,8 @@
 
 .myproject {
     margin-top: 20px;
-    color: white
+    color: white;
+    margin-bottom: 30px;
 }
 
 .list {
@@ -126,9 +127,9 @@ footer i:hover {
     color: #fff;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 1000px) {
     .main {
-        max-width: 100%;
+        max-width: 90%;
         margin: 0 auto;
     }
 }

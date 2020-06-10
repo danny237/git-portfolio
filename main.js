@@ -26,6 +26,9 @@ fetch('https://api.github.com/users/danny237/repos')
 
 
         }
+
+        document.getElementById('loading').hidden = true;
+        document.querySelector('.main').hidden = false;
     })
 
 //     document.getElementById('projectName').textContent = data[0].name
@@ -38,5 +41,3 @@ fetch('https://api.github.com/users/danny237/repos')
 
 
 // })
-document.getElementById('loading').hidden = true;
-document.querySelector('.main').hidden = false;
