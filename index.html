@@ -4,29 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
+
     <title>My Simple Portfolio</title>
+
+    <!-- Css link -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/14d48f34b9.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-
+    <!-- Loading animation from fontawesome -->
     <div id="loading"><i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i></div>
-    <!-- <div id="loading">Loading...</div> -->
 
-    <!--   main -->
+    <!--   main container-->
     <div class="main" hidden>
-        <!--      <div class="container">-->
 
         <div class="info">
             <img src="./img/dan.png" alt="Daniel">
             <h1><span class="color-text">Hi!</span> I'am<br/> Daniel Thapa Magar</h1>
             <p>Highly flexible and good comunication skills, team spirit and B.S in Computer Science. I love to solve the problems and puzzles. Highly interested in Music and Travelling</p>
 
-            <!--            Git info-->
+            <!--Git info-->
             <section id="gitInfo">
                 <div class="box">
                     Folllowers: <span id="followers"></span>
@@ -44,27 +48,40 @@
 
         <!--  horizontial line-->
         <div class="hrline"></div>
-        <div class="myproject">
-            <h3><u>My Projects:</u></h3>
-            <p style="font-family: 'Domine';margin-top: 20px">My latest 5 projects</p>
-            <div id="list">
 
-            </div>
+        <!-- Project Section -->
+        <div class="myproject">
+            <h2 style="padding: 20px; color: #fff;">My Projects</h2>
+            <p style="font-family: 'Inter';margin-top: 20px; font-size:"><u>My latest 5 projects</u></p>
+
+            <!-- List of projects -->
+            <div id="list"></div>
         </div>
-        <h2 style="padding: 20px; border-top: 3px solid  #fff; color: #fff;">My Twitter Account</h2>
+
+        <!-- Horizontal line -->
+        <div class="hrline"></div>
+
+        <!-- Twitter section -->
+        <h2 style="padding: 20px; color: #fff;">My Twitter Account</h2>
+
         <!--       Twitter information-->
         <a class="twitter-timeline" data-width="600" data-height="500" data-theme="dark" href="https://twitter.com/dannymagar23?ref_src=twsrc%5Etfw">Tweets by dannymagar23</a>
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <!--            horizontial line-->
-        <div class="hrline"></div>
-        <footer>
-            <a href="https://github.com/danny237"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="https://www.facebook.com/daniel.thapa.35"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-            <a href="https://www.instagram.com/danielthapa23/"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/dannymagar23"><i class="fab fa-twitter"></i></a>
-        </footer>
 
-        <!--      </div>-->
+        <!-- horizontial line-->
+        <div class="hrline"></div>
+
+
+        <iframe allow="autoplay" width="420" height="315" src="https://www.youtube.com/embed/arxTBMnIQ44">
+</iframe>
+
+        <footer>
+            <a href="https://github.com/danny237" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/daniel.thapa.35" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/danielthapa23/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/dannymagar23" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/channel/UC6iPlUv4QonpsS7SYyNsn5w?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+        </footer>
     </div>
 
 </body>
