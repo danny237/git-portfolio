@@ -1,0 +1,127 @@
+/* green: #33FFA9 */
+
+
+/* Gray: #65686C */
+
+
+/* Background: #23272D */
+
+
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800;900&display=swap');*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    margin: 50px auto;
+    border: 2px solid black;
+    max-width: 50%;
+    text-align: center;
+    /*     display: flex;*/
+    justify-content: center;
+    background: #23272D;
+    border-radius: 10px;
+}
+
+.info {
+    padding: 20px;
+    color: #ffffff;
+    /*    border: 1px solid #fff;*/
+}
+
+.info p {
+    margin-top: 20px;
+    font-size: 10px;
+    line-height: 20px;
+    font-family: 'Domine';
+    letter-spacing: 1.3px;
+}
+
+.color-text {
+    color: #33FFA9;
+}
+
+.info img {
+    border-radius: 50%;
+    width: 40%;
+    padding: 20px;
+}
+
+
+/*Git info*/
+
+#gitInfo {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    text-align: center;
+}
+
+#gitInfo .box {
+    margin: 10px;
+    width: 60%;
+    color: #65686C;
+    transition: .5s;
+    border-radius: 5px;
+    font-size: 10px;
+}
+
+#gitInfo .box:hover {
+    background-color: #fff;
+}
+
+.hrline {
+    height: 2px;
+    background-color: #33FFA9;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.myproject {
+    margin-top: 20px;
+    color: white
+}
+
+.list {
+    margin-top: 20px;
+}
+
+.list label {
+    margin: 10px;
+    font-size: 10px;
+}
+
+#list .box {
+    padding: 10px;
+    /* height: 50px; */
+    width: 70%;
+    margin: 10px auto;
+    background: #65686C;
+    font-family: 'Donine';
+    line-height: 20px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-family: 'Inter';
+}
+
+#list .box:hover {
+    background-color: #90959b;
+}
+
+footer {
+    padding-top: 20px;
+}
+
+footer i {
+    color: #33FFA9;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+footer i:hover {
+    color: #fff;
+}
