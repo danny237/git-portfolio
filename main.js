@@ -34,15 +34,4 @@ fetch('https://api.github.com/users/danny237/repos')
 
         document.getElementById('loading').hidden = true;
         document.querySelector('.main').hidden = false;
-    })
-
-//     document.getElementById('projectName').textContent = data[0].name
-// //    document.getElementById('commits').textContent = data[0].
-//     document.getElementById('fork').textContent = data[0].forks
-// //    document.getElementById('star').textContent = data[0].
-
-
-
-
-
-// })
+    });
