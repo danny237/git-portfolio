@@ -4,20 +4,16 @@ const public_repos = document.getElementById('public_repos');
 
 var html = '';
 
-
-//console.log("Hi")
+// For user informations
 fetch('https://api.github.com/users/danny237')
     .then(response => response.json())
     .then(function(data) {
-        //        console.log(data['followers'])
         followers.textContent = data['followers']
         following.textContent = data['following']
         public_repos.textContent = data['public_repos']
     })
 
-
-
-//for repos
+//For list of repos
 html = ''
 fetch('https://api.github.com/users/danny237/repos')
     .then(response => response.json())
@@ -28,10 +24,7 @@ fetch('https://api.github.com/users/danny237/repos')
             document.getElementById('list').innerHTML += `<div class="box">${i+1}.Project- ${projectname}<br>
             <a href="${link}" target=_blank>Click here</a>
             </div>`
-            console.log(link)
-
         }
-
         document.getElementById('loading').hidden = true;
         document.querySelector('.main').hidden = false;
     });
