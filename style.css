@@ -120,6 +120,10 @@
     background-color: #90959b;
 }
 
+iframe {
+    max-width: 50%;
+}
+
 footer {
     padding-top: 20px;
     margin-bottom: 20px;
