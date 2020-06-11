@@ -1,6 +1,7 @@
 const followers = document.getElementById('followers');
 const following = document.getElementById('following');
 const public_repos = document.getElementById('public_repos');
+const name = document.getElementById('name');
 
 var html = '';
 
@@ -8,6 +9,7 @@ var html = '';
 fetch('https://api.github.com/users/danny237')
     .then(response => response.json())
     .then(function(data) {
+        name.textContent = data['name']
         followers.textContent = data['followers']
         following.textContent = data['following']
         public_repos.textContent = data['public_repos']
