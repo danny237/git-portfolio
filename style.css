@@ -163,4 +163,8 @@ footer i:hover {
         max-width: 90%;
         margin: 0 auto;
     }
+    iframe {
+        width: 300px;
+        height: 250px;
+    }
 }
